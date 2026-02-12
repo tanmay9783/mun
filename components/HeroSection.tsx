@@ -75,7 +75,7 @@ export default function HeroContent(): React.ReactElement {
                         transition={{ duration: 0.6, ease: "easeOut" }}
                         className="text-3xl sm:text-3xl md:text-4xl lg:text-6xl tracking-[0.25em] sm:tracking-[0.3em] text-[#c7bee6] font-bold uppercase"
                     >
-                        KIET
+                        
                     </motion.span>
                 </div>
 
