@@ -1,0 +1,47 @@
+<svg
+    viewBox="0 0 1440 900"
+    xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="xMidYMid slice"
+>
+    <!-- Base background -->
+    <rect width="1440" height="900" fill="#0d0c2d" />
+
+    <!-- Soft radial glow -->
+    <defs>
+        <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+            <stop offset="0%" stop-color="#C7BEE6" stop-opacity="0.25" />
+            <stop offset="100%" stop-color="#0d0c2d" stop-opacity="0" />
+        </radialGradient>
+    </defs>
+
+    <rect width="1440" height="900" fill="url(#glow)" />
+
+    <!-- Large arc / dome shape -->
+    <path
+        d="M -200 650
+       Q 720 200 1640 650
+       L 1640 900
+       L -200 900
+       Z"
+        fill="#C7BEE6"
+        opacity="0.08"
+    />
+
+    <!-- Inner arc -->
+    <path
+        d="M -150 700
+       Q 720 300 1590 700"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="2"
+        opacity="0.15"
+    />
+
+    <!-- Subtle decorative lines -->
+    <g stroke="#ffffff" stroke-width="1" opacity="0.12">
+        <line x1="1200" y1="120" x2="1400" y2="260" />
+        <line x1="1240" y1="160" x2="1380" y2="300" />
+        <line x1="80" y1="160" x2="260" y2="300" />
+        <line x1="120" y1="120" x2="300" y2="260" />
+    </g>
+</svg>

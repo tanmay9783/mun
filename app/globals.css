@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Floating animation for the logo */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+.animate-float {
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Smooth scrolling globally */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+    background-color: #c7bee6;
+    color: #0d0c2d;
+}
+
+/* =================================
+   React-Masonry-CSS Styles
+   ================================= */
+
+.masonry-grid {
+    display: flex;
+    margin-left: -1rem; /* gutter size offset */
+    width: auto;
+}
+
+.masonry-grid_column {
+    padding-left: 1rem; /* gutter size */
+    background-clip: padding-box;
+}
+
+/* Style your items */
+.masonry-grid_column > div {
+    margin-bottom: 1rem; /* space between items */
+}
+
+
