@@ -163,7 +163,7 @@ export default function HeroContent(): React.ReactElement {
                     -translate-x-1/2
                     z-20
                     w-[110%] sm:w-[95%] max-w-[1100px]
-                    h-[260px] sm:h-[280px]
+                    h-[500px] sm:h-[280px]
                     md:h-[950px]
                     lg:h-[700px]
                     pointer-events-none
