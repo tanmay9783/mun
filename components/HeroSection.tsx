@@ -19,7 +19,7 @@ export default function HeroContent(): React.ReactElement {
     };
 
     return (
-        <section className="relative min-h-[100dvh] sm:min-h-screen overflow-hidden">
+        <section className="relative min-h-[100svh] sm:min-h-screen overflow-hidden">
             {/* Navbar */}
             <Navbar />
 
